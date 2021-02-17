@@ -16,7 +16,7 @@ composer require metrixinfo/nova-iframe
 Add the field to your resource in the ```fields``` method:
 
 ```php
-use Metrixinfo\Nova\Fields\Iframe;
+use Metrixinfo\Nova\Fields\Iframe\Iframe;
 ...
 ...
 Iframe::make('HTML Content','html_content'),
@@ -41,7 +41,7 @@ Iframe::make('HTML Content', function (){
 You may pass in the size of the iframe. Values can be numeric or string.
 
 ```php
-use Metrixinfo\Nova\Fields\Iframe;
+use Metrixinfo\Nova\Fields\Iframe\Iframe;
 ...
 ...
 Iframe::make('HTML Content','html_content')->size('100%', 600),
@@ -51,7 +51,7 @@ Iframe::make('HTML Content','html_content')->size('100%', 600),
 You may pass CSS styles to the iframe.
 
 ```php
-use Metrixinfo\Nova\Fields\Iframe;
+use Metrixinfo\Nova\Fields\Iframe\Iframe;
 ...
 ...
 Iframe::make('HTML Content','html_content')->style('border: 10px solid black;'),
@@ -61,7 +61,7 @@ Iframe::make('HTML Content','html_content')->style('border: 10px solid black;'),
 You may pass in classes to the iframe.
 
 ```php
-use Metrixinfo\Nova\Fields\Iframe;
+use Metrixinfo\Nova\Fields\Iframe\Iframe;
 ...
 ...
 Iframe::make('HTML Content','html_content')->classes('iframe-bordered iframe-large'),
@@ -70,7 +70,7 @@ Iframe::make('HTML Content','html_content')->classes('iframe-bordered iframe-lar
 ### Options may be chained
 ie: 
 ```php
-use Metrixinfo\Nova\Fields\Iframe;
+use Metrixinfo\Nova\Fields\Iframe\Iframe;
 ...
 ...
 Iframe::make('HTML Content','html_content')

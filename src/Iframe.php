@@ -1,6 +1,6 @@
 <?php
 
-namespace Metrixinfo\Nova\Fields;
+namespace Metrixinfo\Nova\Fields\Iframe;
 
 use Laravel\Nova\Fields\Field;
 

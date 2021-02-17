@@ -1,6 +1,6 @@
 {
     "name": "metrixinfo/nova-iframe",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova iFrame field.",
     "keywords": [
         "laravel",
         "nova",
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Metrixinfo\\Nova\\Fields\\": "src/"
+            "Metrixinfo\\Nova\\Fields\\Iframe\\": "src/"
         }
     },
     "extra": {

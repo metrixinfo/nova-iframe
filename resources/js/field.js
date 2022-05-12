@@ -1,3 +1,6 @@
-Nova.booting((Vue, router) => {
-    Vue.component('detail-iframe', require('./components/DetailField'));
+import DetailField from './components/DetailField'
+
+Nova.booting((app, store) => {
+    app.component('detail-iframe', DetailField)
 })
+

@@ -8,8 +8,13 @@ It is only visible on the Details view.
 Install the package into a Laravel app that uses [Nova](https://nova.laravel.com) with Composer:
 
 ```bash
-composer require metrixinfo/nova-iframe
+composer require metrixinfo/nova-iframe:^4.0
 ```
+
+|Nova Version|iFrame Version|
+|------------|--------------|
+|Nova 3|^1.0|
+|Nova 4|^4.0|
 
 ## Usage
 

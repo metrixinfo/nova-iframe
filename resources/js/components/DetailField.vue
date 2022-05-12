@@ -1,10 +1,10 @@
 <template>
-    <panel-item :field="field">
+    <PanelItem :field="field">
         <template slot="value">
             <iframe v-if="showIframe" :width="width" :height="height" :class="classes" :style="style" :srcdoc="field.value"></iframe>
             <p v-else>—</p>
         </template>
-    </panel-item>
+    </PanelItem>
 </template>
 
 <script>
@@ -21,8 +21,6 @@ export default {
     }),
 
     mounted: function () {
-
-        console.log(this.field);
 
         // Set the width
         if (this.field.hasOwnProperty('width')) {
